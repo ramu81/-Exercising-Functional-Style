@@ -6,3 +6,7 @@ Exercise 4
   *  The mess of concatenating output
   *  The traditional approach 
   *  The Java 8 Solution 
+  
+Exercise 5
+
+
