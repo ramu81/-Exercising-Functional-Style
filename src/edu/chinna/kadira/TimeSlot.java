@@ -21,7 +21,7 @@ public class TimeSlot {
 	 * @return
 	 */
 	public boolean isAvailable() {
-		return random.nextBoolean();
+		return false;//random.nextBoolean();
 	}
 
 }
