@@ -17,12 +17,12 @@ public class Exercise5 {
 				new TraditionalPerson("Laxmamma", 4));
 
 		Collections.sort(lTraditionalPersons);
-
-		Collections.sort(lPersons, new Comparator<Person>() {
+		Comparator<Person> ByName = new Comparator<Person>() {
 			public int compare(Person a, Person b) {
 				return a.getName().compareTo(b.getName());
 			}
-		});
+		};
+		Collections.sort(lPersons, ByName);
 		System.out.println();
 		for (TraditionalPerson traditionalPerson : lTraditionalPersons) {
 			System.out.println(traditionalPerson);
@@ -32,12 +32,6 @@ public class Exercise5 {
 			System.out.println(lPerson);
 		}
 		System.out.println();
-		lPersons.stream()
-		.sorted(new Comparator<Person>() {
-			public int compare(Person a, Person b) {
-				return a.getName().compareTo(b.getName());
-			}
-		})
-		.forEach(System.out::println);
+		lPersons.stream().sorted(ByName).forEach(System.out::println);
 	}
 }
