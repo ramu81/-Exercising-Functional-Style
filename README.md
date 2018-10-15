@@ -9,6 +9,12 @@
    all the interface defaults.
    4. if ther's a confilct between two or more default method implementations, there's a 
    default-abstract conflict between two interfaces , the inherting class should disambiguate.
+   
+# Java 8 Method Reference
+   A method reference is the shorthand syntax for a lambda expression that executes just one method. 
+   Here's the general syntax of a method reference:
+      Object :: methodName
+
 # Exercise 4   
   *   List the names of files in a directory, all in uppercase , comma separated
   *   The mess of concatenating output
