@@ -13,12 +13,12 @@
 # Java 8 Method Reference
    A method reference is the shorthand syntax for a lambda expression that executes just one method. 
    Here's the general syntax of a method reference: Object :: methodName
-      Instead of using
-      AN ANONYMOUS CLASS
-      you can use
-      A LAMBDA EXPRESSION
-      And if this just calls one method, you can use
-      A METHOD REFERENCE
+   ** Instead of using
+   AN ANONYMOUS CLASS
+   you can use
+   A LAMBDA EXPRESSION
+   and if this just calls one method, you can use
+    A METHOD REFERENCE **
 
 # Exercise 4   
   *   List the names of files in a directory, all in uppercase , comma separated
