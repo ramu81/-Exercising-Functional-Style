@@ -2,8 +2,13 @@
 
 # Default Methods in Java 8
    Default methods follow four rules.
-   1. subtypes automatically carry over the default methods form their super types -- 
-      functinal programming java  : Harenssing the power of java 8 lambda expressions.
+   1. subtypes automatically carry over the default methods form their super types.
+   2. for interfaces that contribute a default method the implementation in a subtype 
+   takes precedence over the one in the super types.
+   3. Implementations in classes, including abstract declarations takes precedence over 
+   all the interface defaults.
+   4. if ther's a confilct between two or more default method implementations, there's a 
+   default-abstract conflict between two interfaces , the inherting class should disambiguate.
 # Exercise 4   
   *   List the names of files in a directory, all in uppercase , comma separated
   *   The mess of concatenating output
