@@ -1,8 +1,9 @@
 # Exercising-Functional-Style
 
 # Default Methods in Java 8
-   subtypes automatically carry over the default methods form their super types -- 
-   functinal programming java  : Harenssing the power of java 8 lambda expressions...
+   Default methods follow four rules, we explore the first rule
+   1. subtypes automatically carry over the default methods form their super types -- 
+      functinal programming java  : Harenssing the power of java 8 lambda expressions.
 # Exercise 4   
   *   List the names of files in a directory, all in uppercase , comma separated
   *   The mess of concatenating output
