@@ -20,7 +20,7 @@ public class Person implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", id=" + id + "]";
+		return String.format(" %s %d ", name, id);
 	}
 
 	public void setName(String name) {
