@@ -10,6 +10,8 @@ import java.util.function.Predicate;
  * which compose by taking a collection as output of one operation and feeding it into the next.
  * (Common operations are filter, map, and reduce.) This pattern is common in functional programming,
  * and also in object-oriented languages which have lambdas.
+ * 
+ * https://martinfowler.com/articles/collection-pipeline/
  */
 public class PipelinePattern {
     public static void main(String[] args) {
