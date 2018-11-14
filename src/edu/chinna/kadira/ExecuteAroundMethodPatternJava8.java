@@ -1,5 +1,4 @@
-package ed.demo;
-
+package edu.chinna.kadira;
 
 import java.util.function.Consumer;
 
