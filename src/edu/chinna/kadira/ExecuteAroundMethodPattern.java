@@ -1,4 +1,4 @@
-package ed.demo;
+package edu.chinna.kadira;
 
 interface UseResource {
     void accept(Resource r);
